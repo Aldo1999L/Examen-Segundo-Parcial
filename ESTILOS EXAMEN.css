@@ -1,0 +1,105 @@
+#site{
+    width: 1100px;
+    height: 830px;
+    margin-top: 0;
+    margin-left:auto;
+    margin-bottom: 0;
+    margin-right:auto;
+    background-color:white;
+}
+#header{
+    width: 1100px;
+    height: 80px;
+    background-color:azure;
+}
+#header1{
+    width: 350px;
+    height: 80px;
+    background-color:white;
+    float: left;
+}
+#header2{
+    width: 250px;
+    height: 80px;
+    background-color:white;
+    float: right;
+}
+#header3{
+    width: 500px;
+    height: 80px;
+    background-color:white;
+    float: right;
+}
+#cuerpo{
+    width: 1100px;
+    height: 440px;
+    background-color:white;
+}
+#cuerpo_left{
+    width: 740px;
+    height: 430px;
+    float: left;
+    background-image: url(img1.jpg), linear-gradient(red, blue);
+    background-size: cover;
+    color: white;
+}
+#cuerpo_right1{
+    width: 350px;
+    height: 200px;
+    float: right;
+    background-color:white;
+    background-image: url(img2.jpg);
+    background-size: cover;
+    color: white;
+}
+#cuerpo_right2{
+    width: 350px;
+    height: 220px;
+    float: right;
+    background-color:white;
+    background-image: url(img3.jpeg);
+    background-size: cover;
+    color: white;
+}
+#footer1{
+    width: 400px;
+    height: 200px;
+    background-color:black;
+    float: left;
+}
+#footer2{
+    width: 350px;
+    height: 200px;
+    background-color:black;
+    float:right;
+}
+#footer3{
+    width: 350px;
+    height: 200px;
+    background-color:black;
+    float:right;
+}
+#Menu{
+    background-color: white;
+    width: 1000px;
+    height: 120px;
+}
+.topnav{
+  background-color: black;
+    overflow: hidden; 
+    width: 30%;
+    border: 1px solid black;
+}
+.topnav a{
+    float:inherit;
+    color: lightgray;
+    font-family: sans-serif;
+    display:block;
+    text-align: center;
+    padding: 14 px 16 px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: white;
+    color:darkblue;
+}
